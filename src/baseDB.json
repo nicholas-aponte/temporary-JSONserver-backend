@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": "+1 (201) 204-8678",
+      "firstName": "Nicholas",
+      "lastName": "Aponte",
+      "dob": "04/14/1996",
+      "userDocuments": [],
+      "driverCompanies": [
+        {
+          "companyName": "ValleyMedical",
+          "subCompanies": [
+            {
+              "subCompanyName": "Medicare Transport",
+              "requiredDocuments": [
+                { "docNum": 0 },
+                { "docNum": 1 },
+                { "docNum": 2 },
+                { "docNum": 4 }
+              ]
+            },
+            {
+              "subCompanyName": "Ambulance",
+              "requiredDocuments": [
+                { "docNum": 0 },
+                { "docNum": 1 },
+                { "docNum": 3 }
+              ]
+            }
+          ],
+          "email": "ValleyMedical@Valley.com",
+          "phone": "201444-3674"
+        }
+      ]
+    }
+  ],
+
+  "companyObjects": [
+    {
+      "companyName": "ValleyMedical",
+      "subCompanies": [
+        {
+          "subCompanyName": "Medicare Transport",
+          "requiredDocuments": [
+            { "docNum": 0 },
+            { "docNum": 1 },
+            { "docNum": 2 },
+            { "docNum": 4 }
+          ]
+        },
+        {
+          "subCompanyName": "Ambulance",
+          "requiredDocuments": [
+            { "docNum": 0 },
+            { "docNum": 1 },
+            { "docNum": 3 }
+          ]
+        }
+      ],
+      "email": "ValleyMedical@Valley.com",
+      "phone": "201444-3674"
+    },
+    {
+      "companyName": "Delux",
+      "subCompanies": [
+        {
+          "subCompanyName": "Black Cab",
+          "requiredDocuments": [
+            { "docNum": 0 },
+            { "docNum": 1 },
+            { "docNum": 2 },
+            { "docNum": 3 },
+            { "docNum": 4 }
+          ]
+        },
+        {
+          "subCompanyName": "Yellow Taxi",
+          "requiredDocuments": [
+            { "docNum": 0 },
+            { "docNum": 1 },
+            { "docNum": 2 }
+          ]
+        }
+      ],
+      "email": "Delux@DeluxLimo.com",
+      "phone": "201-222-3674"
+    },
+    {
+      "companyName": "Juniors",
+      "subCompanies": [],
+      "companyRequiredDocuments": [
+        { "docNum": 0 },
+        { "docNum": 1 },
+        { "docNum": 2 }
+      ],
+      "email": "Juniors@gmail.com",
+      "phone": "201-492-3672"
+    },
+
+    {
+      "companyName": "NewYorksBest",
+      "subCompanies": [],
+      "companyRequiredDocuments": [{ "docNum": 0 }, { "docNum": 2 }],
+      "email": "NewYorkBest@NewYorkBest.com",
+      "phone": "701-555-9021"
+    }
+  ]
+}

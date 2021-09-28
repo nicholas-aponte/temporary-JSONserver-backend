@@ -2,11 +2,38 @@
   "users": [
     {
       "id": "+1 (111) 111-1111",
-      "firstName": "Nicholas",
-      "lastName": "Aponte",
-      "dob": "04/14/1996",
-      "userDocuments": [],
+      "userInfo": {
+        "id": "+1 (111) 111-1111",
+        "firstName": "Nicholas",
+        "lastName": "Aponte",
+        "dob": "2021-09-08"
+      },
+      "userDocuments": [
+        {
+          "docName": "Driver TLC"
+        },
+        {
+          "docName": "Vehicle TLC"
+        },
+        {
+          "docName": "NY Drivers License"
+        }
+      ],
       "userCompanies": [
+        {
+          "companyName": "NewYorksBest",
+          "subCompanies": [],
+          "companyRequiredDocuments": [
+            {
+              "docNum": 0
+            },
+            {
+              "docNum": 2
+            }
+          ],
+          "email": "NewYorkBest@NewYorkBest.com",
+          "phone": "701-555-9021"
+        },
         {
           "companyName": "Delux",
           "subCompanies": [
@@ -47,143 +74,20 @@
           ],
           "email": "Delux@DeluxLimo.com",
           "phone": "201-222-3674"
-        },
-        {
-          "companyName": "Juniors",
-          "subCompanies": [],
-          "companyRequiredDocuments": [
-            {
-              "docNum": 0
-            },
-            {
-              "docNum": 1
-            },
-            {
-              "docNum": 2
-            }
-          ],
-          "email": "Juniors@gmail.com",
-          "phone": "201-492-3672"
         }
       ],
-      "documentsStatus": [],
+      "documentsStatus": {
+        "Driver TLC": true,
+        "Vehicle TLC": true,
+        "NY Drivers License": true,
+        "NJ Drivers License": false,
+        "Vehicle Insurance": false
+      },
       "applicationsStatus": {
         "Delux": false,
         "Juniors": false,
         "NewYorksBest": false
       }
-    }
-  ],
-  "companyObjects": [
-    {
-      "companyName": "ValleyMedical",
-      "subCompanies": [
-        {
-          "subCompanyName": "Medicare Transport",
-          "requiredDocuments": [
-            {
-              "docNum": 0
-            },
-            {
-              "docNum": 1
-            },
-            {
-              "docNum": 2
-            },
-            {
-              "docNum": 4
-            }
-          ]
-        },
-        {
-          "subCompanyName": "Ambulance",
-          "requiredDocuments": [
-            {
-              "docNum": 0
-            },
-            {
-              "docNum": 1
-            },
-            {
-              "docNum": 3
-            }
-          ]
-        }
-      ],
-      "email": "ValleyMedical@Valley.com",
-      "phone": "201444-3674"
-    },
-    {
-      "companyName": "Delux",
-      "subCompanies": [
-        {
-          "subCompanyName": "Black Cab",
-          "requiredDocuments": [
-            {
-              "docNum": 0
-            },
-            {
-              "docNum": 1
-            },
-            {
-              "docNum": 2
-            },
-            {
-              "docNum": 3
-            },
-            {
-              "docNum": 4
-            }
-          ]
-        },
-        {
-          "subCompanyName": "Yellow Taxi",
-          "requiredDocuments": [
-            {
-              "docNum": 0
-            },
-            {
-              "docNum": 1
-            },
-            {
-              "docNum": 2
-            }
-          ]
-        }
-      ],
-      "email": "Delux@DeluxLimo.com",
-      "phone": "201-222-3674"
-    },
-    {
-      "companyName": "Juniors",
-      "subCompanies": [],
-      "companyRequiredDocuments": [
-        {
-          "docNum": 0
-        },
-        {
-          "docNum": 1
-        },
-        {
-          "docNum": 2
-        }
-      ],
-      "email": "Juniors@gmail.com",
-      "phone": "201-492-3672"
-    },
-    {
-      "companyName": "NewYorksBest",
-      "subCompanies": [],
-      "companyRequiredDocuments": [
-        {
-          "docNum": 0
-        },
-        {
-          "docNum": 2
-        }
-      ],
-      "email": "NewYorkBest@NewYorkBest.com",
-      "phone": "701-555-9021"
     }
   ]
 }

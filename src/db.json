@@ -6,20 +6,73 @@
         "id": "+1 (111) 111-1111",
         "firstName": "Nicholas",
         "lastName": "Aponte",
-        "dob": "2021-09-08"
+        "dob": "1996-04-14"
       },
       "userDocuments": [
         {
-          "docName": "Driver TLC"
+          "docName": "Vehicle TLC",
+          "docNum": "123488",
+          "docExpiration": "2021-10-22",
+          "frontImage": "blob:http://localhost:3000/9f81e688-b83e-45c9-ad81-43092772cfd8",
+          "backImage": "blob:http://localhost:3000/5563ba87-9b81-461d-b57c-a7815227b4ac"
         },
         {
-          "docName": "Vehicle TLC"
+          "docName": "NY Drivers License",
+          "docNum": "123488",
+          "docExpiration": "2021-10-09",
+          "frontImage": "blob:http://localhost:3000/85f12f63-dcb2-4103-8723-d88074984f8a",
+          "backImage": "blob:http://localhost:3000/3fc986b4-1c9b-493d-8ad1-892c1324b13f"
         },
         {
-          "docName": "NY Drivers License"
+          "docName": "Driver TLC",
+          "docNum": "123488",
+          "docExpiration": "2021-10-13",
+          "frontImage": "blob:http://localhost:3000/0cb798bd-ccf3-442c-a0e7-0bb0905b642d",
+          "backImage": "blob:http://localhost:3000/f335d1b7-8448-451d-a4ee-1c1fb423336b"
         }
       ],
       "userCompanies": [
+        {
+          "companyName": "Delux",
+          "subCompanies": [
+            {
+              "subCompanyName": "Black Cab",
+              "requiredDocuments": [
+                {
+                  "docNum": 0
+                },
+                {
+                  "docNum": 1
+                },
+                {
+                  "docNum": 2
+                },
+                {
+                  "docNum": 3
+                },
+                {
+                  "docNum": 4
+                }
+              ]
+            },
+            {
+              "subCompanyName": "Yellow Taxi",
+              "requiredDocuments": [
+                {
+                  "docNum": 0
+                },
+                {
+                  "docNum": 1
+                },
+                {
+                  "docNum": 2
+                }
+              ]
+            }
+          ],
+          "email": "Delux@DeluxLimo.com",
+          "phone": "201-222-3674"
+        },
         {
           "companyName": "NewYorksBest",
           "subCompanies": [],
@@ -33,7 +86,54 @@
           ],
           "email": "NewYorkBest@NewYorkBest.com",
           "phone": "701-555-9021"
+        }
+      ],
+      "documentsStatus": {
+        "Driver TLC": true,
+        "Vehicle TLC": true,
+        "NY Drivers License": true,
+        "NJ Drivers License": false,
+        "Vehicle Insurance": false
+      },
+      "applicationsStatus": {
+        "Delux": false,
+        "Juniors": false,
+        "NewYorksBest": false
+      }
+    }
+  ],
+  "drivers": [
+    {
+      "id": "+1 (201) 204-8678",
+      "userInfo": {
+        "id": "+1 (201) 204-8678",
+        "firstName": "Nicholas",
+        "lastName": "Aponte",
+        "dob": "1996-04-14"
+      },
+      "documentsStatus": [
+        {
+          "docName": "Driver TLC",
+          "status": "missing"
         },
+        {
+          "docName": "Vehicle TLC",
+          "status": "expired"
+        },
+        {
+          "docName": "NY Drivers License",
+          "status": "pending"
+        },
+        {
+          "docName": "NJ Drivers License",
+          "status": "approved"
+        },
+        {
+          "docName": "Vehicle Insurance",
+          "status": "denied"
+        }
+      ],
+      "driverCompanies": [
         {
           "companyName": "Delux",
           "subCompanies": [
@@ -75,19 +175,7 @@
           "email": "Delux@DeluxLimo.com",
           "phone": "201-222-3674"
         }
-      ],
-      "documentsStatus": {
-        "Driver TLC": true,
-        "Vehicle TLC": true,
-        "NY Drivers License": true,
-        "NJ Drivers License": false,
-        "Vehicle Insurance": false
-      },
-      "applicationsStatus": {
-        "Delux": false,
-        "Juniors": false,
-        "NewYorksBest": false
-      }
+      ]
     }
   ]
 }
